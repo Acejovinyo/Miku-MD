@@ -730,7 +730,7 @@ if (AntiLink) {
     if (isCreator) return reply(bvl)
     kice = m.sender
     await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
-    Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+    Miku.sendMessage(from, {text:`\`\`\`「  Link Detected  」\`\`\`\n\n@${kice.split("@")[0]} Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
     } else {
     }
     }
@@ -744,7 +744,7 @@ if (AntiLink) {
   if (isCreator) return reply(bvl)
   kice = m.sender
   await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-  Miku.sendMessage(from, {text:`\`\`\`「 'wa.me' PM link Detected! 」\`\`\`\n\n@${kice.split("@")[0]} Baka Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+  Miku.sendMessage(from, {text:`\`\`\`「 'wa.me' PM link Detected! 」\`\`\`\n\n@${kice.split("@")[0]} Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
   } else {
   }
   if (antiWame)
@@ -756,7 +756,7 @@ if (m.key.fromMe) return reply(bvl)
 if (isCreator) return reply(bvl)
 kice = m.sender
 await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-Miku.sendMessage(from, {text:`\`\`\`「 'wa.me' PM link Detected! 」\`\`\`\n\n@${kice.split("@")[0]}  Baka Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+Miku.sendMessage(from, {text:`\`\`\`「 'wa.me' PM link Detected! 」\`\`\`\n\n@${kice.split("@")[0]} Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
 
@@ -782,7 +782,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         }
@@ -797,7 +797,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Yt video link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Has been removed for sending Yt video link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -823,7 +823,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Instagram link in this group! No promotion is allowed!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Has been removed for sending Instagram link in this group! No promotion is allowed!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -836,7 +836,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Facebook link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Has been removed for sending Facebook link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -850,7 +850,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Telegram link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Has been removed for sending Telegram link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -863,7 +863,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Tiktok link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Has been removed for sending Tiktok link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -876,7 +876,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Twitter link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Has been removed for sending Twitter link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -889,7 +889,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending links in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Has been removed for sending links in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -1334,7 +1334,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
+    Hello ${pushname} dear 👋. I am ${global.BotName}, a bot deployed by: Ace to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1524,13 +1524,13 @@ case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
     if (!AntiNsfw) return reply(mess.nonsfw)
-        reply(` *━━━〈  📛 NSFW Menu 📛  〉━━━*\n\nahegao, ass, bdsm, cuckold, cum, ero, femdom, gangbang, foot, glasses, hentai, masturbation, orgy, panties, pussy, tentacles, things, yuri ,nsfwloli, blowjobgif, hentaivideo, trap, hneko, hwaifu`)
+        reply(` *━━━〈  🇦🇱 NSFW Menu 🇦🇱  〉━━━*\n\nahegao, ass, bdsm, cuckold, cum, ero, femdom, gangbang, foot, glasses, hentai, masturbation, orgy, panties, pussy, tentacles, things, yuri ,nsfwloli, blowjobgif, hentaivideo, trap, hneko, hwaifu`)
     break
 
 case 'reaction': case 'react': case 'reactions': case 'r':
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-            reply(` *━━━〈  📍 Reactions 📍  〉━━━*\n\nbonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe`)
+            reply(` *━━━〈  💥 Reactions 💥  〉━━━*\n\nbonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe`)
         break   
     
 
@@ -4807,7 +4807,7 @@ Here's the list of my Commands.
 
 speak, miku, stalk, profile, help, delete, deleteall, listgc, listpc, welcome, support, repo, script, admin 
  
- *━━━〈  🎀 Owner 🎀  〉━━━*
+ *━━━〈  🇦🇱 Owner 🇦🇱  〉━━━*
 
 self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast 
 
@@ -4815,7 +4815,7 @@ self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast
  
 promote, demote, revoke, add, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc, group, nsfw 
 
- *━━━〈  ➰ Anti Link ➰  〉━━━*
+ *━━━〈  ⚠️ Anti Link ⚠️  〉━━━*
  
 antilinkgc, antilinktg, antilinktt, antilinkytch, antilinkytvid, antilinkig, antilinkfb, antilinktwit, antilinkall, antiwame
 
@@ -4831,7 +4831,7 @@ sticker, toimg, tovideo, togif , steal, stickermeme, emojimix, tourl, tomp3, toa
 
 bass, tempo, blown, deep, earrape, fast, fat, nightcore, reverse, robot, slow, squirrel
 
- *━━━〈  📍 Reactions 📍  〉━━━*
+ *━━━〈  💥 Reactions 💥  〉━━━*
 
 bonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe
 
@@ -4859,7 +4859,7 @@ reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomec
 
 qr, say, translate, fliptext, toletter, weather
 
- *━━━〈  💥 NSFW 💥  〉━━━*
+ *━━━〈  🥃 NSFW 🥃  〉━━━*
 
 🍁 Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
 
