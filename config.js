@@ -63,7 +63,7 @@ global.mess = {
     botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
     botowner: 'Only my *Owner* can use this command!',
     grouponly: 'This command is only made for *Groups*!',
-    privateonly: 'This command is only made for *Private Chat*, Baka!',
+    privateonly: 'This command is only made for *Private Chat*, mate!',
     botonly: 'Only the *Bot itself* can use this command!',
     waiting: 'Wait jut a secs...',
     nolink: 'Please provide me *link*!',
