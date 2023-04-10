@@ -67,7 +67,7 @@ global.mess = {
     botonly: 'Only the *Bot itself* can use this command!',
     waiting: 'Wait jut a secs...',
     nolink: 'Please provide me *link*!',
-    error: 'An error occurd!',
+    error: 'An error occurred!',
     banned: 'You are *Banned* fron using commands!',
     bangc: 'This Group is *Banned* from using Commands!',
     nonsfw: 'Dont be a pervert mate! This is not a NSFW enabled group!'
